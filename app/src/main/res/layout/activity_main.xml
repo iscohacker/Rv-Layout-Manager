@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!--Mehribon va Rahimli Alloh nomi bilan boshlayman-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/liner"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#0041D0"
+        android:text="Liner"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/grid"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="#0041D0"
+        android:text="Grid"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="8dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/staggered"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#0041D0"
+        android:text="Staggered"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="8dp" />
+
+</LinearLayout>
